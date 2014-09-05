@@ -1,0 +1,17 @@
+dl {
+    border: 1px solid red;
+    overflow: hidden; /* overflow hidden can be used as a clear fix/ it reminds it reminds the <dl> to wrap around the it's floated children */
+    
+}
+
+dt {
+    float: left;
+    clear: left; /* force the <dt> underneath anything floated left */ 
+    width: 8rem;
+}
+
+dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
